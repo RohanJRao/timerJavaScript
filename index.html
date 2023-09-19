@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="timerStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timer" id="timer">
+            <span class="timerMinutes">00</span>
+            <span class="timerSeperator">:</span>
+            <span class="timerSeconds">00</span>
+        </div>
+        <div class="buttonsLayout">
+            <button onclick="startTimer()"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button onclick="stopTimer()"><i class="fa fa-stop" aria-hidden="true"></i></button>
+            <button onclick="resetTimer()"><i class="fa fa-repeat" aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
